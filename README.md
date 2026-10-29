@@ -1,6 +1,6 @@
 # chatzy
 
-A new Flutter project.
+A new Flutter project which helps to send messages in real time.
 
 ## Getting Started
 
