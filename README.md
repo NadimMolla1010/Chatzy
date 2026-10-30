@@ -1,16 +1,78 @@
-# chatzy
+# 💬 Chatzy
 
-A new Flutter project which helps to send messages in real time.
+Chatzy is a simple **real-time chat application** built with **Flutter and Firebase**.
 
-## Getting Started
+This project was created to practice Flutter development, Firebase Authentication, Cloud Firestore, and Firebase Storage.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User registration and login
+- 👥 View registered users
+- 💬 One-to-one real-time messaging
+- 📎 Send files in chat
+- 🔥 Firebase Authentication
+- ☁️ Cloud Firestore for messages and users
+- 📦 Firebase Storage for file uploads
+- 🎨 Simple custom UI and theme
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**
+- **Dart**
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **Firebase Storage**
+- **File Picker**
+
+## 📁 Project Structure
+
+```text
+lib/
+├── components/       # Reusable UI components
+├── models/           # Data models
+├── pages/            # App screens
+├── services/
+│   ├── auth/         # Authentication
+│   └── chat/         # Chat functionality
+├── themes/           # App themes
+├── firebase_options.dart
+└── main.dart
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/NadimMolla1010/Chatzy.git
+```
+
+### 2. Go to the project folder
+
+```bash
+cd Chatzy
+```
+
+### 3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 4. Run the application
+
+```bash
+flutter run
+```
+
+Make sure Flutter and Firebase are properly configured before running the project.
+
+## 📌 Project Status
+
+This is a **beginner-level learning project** and may be improved with more features in the future.
+
+## 👨‍💻 Author
+
+**Nadim Molla**
+
+GitHub: [NadimMolla1010](https://github.com/NadimMolla1010)
