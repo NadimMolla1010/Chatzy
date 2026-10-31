@@ -1,32 +1,25 @@
 # 💬 Chatzy
 
-Chatzy is a simple **real-time chat application** built with **Flutter and Firebase**.
+Chatzy is a simple real-time chat application built with Flutter and Firebase.
 
-This project was created to practice Flutter development, Firebase Authentication, Cloud Firestore, and Firebase Storage.
+This is a beginner-level learning project to practice Flutter development, Firebase Authentication, Cloud Firestore, and Firebase Storage.
 
 ## ✨ Features
-
 - 🔐 User registration and login
 - 👥 View registered users
 - 💬 One-to-one real-time messaging
 - 📎 Send files in chat
-- 🔥 Firebase Authentication
-- ☁️ Cloud Firestore for messages and users
-- 📦 Firebase Storage for file uploads
 - 🎨 Simple custom UI and theme
 
 ## 🛠️ Technologies Used
-
-- **Flutter**
-- **Dart**
-- **Firebase Authentication**
-- **Cloud Firestore**
-- **Firebase Storage**
-- **File Picker**
+- **Flutter** and **Dart**
+- **Firebase Authentication**: login and registration
+- **Cloud Firestore**: users and messages
+- **Firebase Storage**: file uploads
+- **File Picker**: choosing files to send
 
 ## 📁 Project Structure
-
-```text
+```
 lib/
 ├── components/       # Reusable UI components
 ├── models/           # Data models
@@ -41,38 +34,34 @@ lib/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- A Firebase project with **Authentication** (Email/Password), **Cloud Firestore**, and **Storage** enabled
 
+### Run the app
 ```bash
 git clone https://github.com/NadimMolla1010/Chatzy.git
-```
-
-### 2. Go to the project folder
-
-```bash
 cd Chatzy
-```
-
-### 3. Install dependencies
-
-```bash
 flutter pub get
-```
-
-### 4. Run the application
-
-```bash
 flutter run
 ```
 
-Make sure Flutter and Firebase are properly configured before running the project.
+### Firebase setup
+To connect the app to your own Firebase project, configure it with the FlutterFire CLI:
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+This regenerates `lib/firebase_options.dart` for your project.
+
+## 📸 Screenshots
+Add screenshots to a `screenshots/` folder and link them here:
+
+<!-- ![Login](screenshots/login.png) -->
+<!-- ![Chat](screenshots/chat.png) -->
 
 ## 📌 Project Status
-
-This is a **beginner-level learning project** and may be improved with more features in the future.
+This is a beginner-level learning project and may be improved with more features in the future.
 
 ## 👨‍💻 Author
-
-**Nadim Molla**
-
-GitHub: [NadimMolla1010](https://github.com/NadimMolla1010)
+**Md Nadim Molla** | [LinkedIn](https://linkedin.com/in/nadim-molla) | [GitHub](https://github.com/NadimMolla1010)
