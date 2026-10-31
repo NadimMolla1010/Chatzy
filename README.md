@@ -54,12 +54,6 @@ flutterfire configure
 ```
 This regenerates `lib/firebase_options.dart` for your project.
 
-## 📸 Screenshots
-Add screenshots to a `screenshots/` folder and link them here:
-
-<!-- ![Login](screenshots/login.png) -->
-<!-- ![Chat](screenshots/chat.png) -->
-
 ## 📌 Project Status
 This is a beginner-level learning project and may be improved with more features in the future.
 
